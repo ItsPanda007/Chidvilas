@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda.io</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> <!-- Google Font Link -->
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 400% 400%; /* Enlarges the gradient for smoother animation */
+            animation: rainbow 10s ease infinite; /* Slower animation */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        h1, h2 {
+            font-family: 'Poppins', sans-serif; /* Apply Poppins font to both h1 and h2 */
+        }
+
+        h1 {
+            color: black;
+            font-weight: 600; /* Make the font bolder for h1 */
+        }
+
+        @keyframes rainbow {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Rainbow is going to join in Chennai</h1>
+    <h2>Veltech Engineering College</h2>
+</body>
+</html>
